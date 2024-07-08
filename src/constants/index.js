@@ -10,6 +10,7 @@ import postgresqlLogo from "../assets/logos/postgresql.svg";
 import gitlabLogo from "../assets/logos/gitlab.svg";
 import htlmLogo from "../assets/logos/html-1.svg";
 import projectImage from "../assets/img-project.png";
+import possibilityImage from "../assets/possibility.png";
 
 export {
   reactLogo,
@@ -24,4 +25,5 @@ export {
   gitlabLogo,
   htlmLogo,
   projectImage,
+  possibilityImage,
 };

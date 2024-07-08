@@ -63,8 +63,22 @@ button:focus-visible {
 }
 
 .text__gradient_1 {
-  color: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+  background: -webkit-linear-gradient(#ffc9c9, #5f5c5c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+.text__gradient_2 {
+  background: -webkit-linear-gradient(#77bed6, #3d3b50);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text__gradient_3 {
+  background: -webkit-linear-gradient(#3802da, #b04fda);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .bg__gradient_1 {
   background: rgb(2, 0, 36);
   background: -moz-linear-gradient(
@@ -108,6 +122,11 @@ button:focus-visible {
     rgba(67, 67, 116, 1) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#01000d",endColorstr="#434374",GradientType=1);
+}
+
+.bg__img {
+  background-image: url("./assets/bg.png");
+  background-attachment: fixed;
 }
 
 @media (prefers-color-scheme: light) {

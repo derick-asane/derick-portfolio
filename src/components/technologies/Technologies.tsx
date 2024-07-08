@@ -46,6 +46,9 @@ const Technologies = () => {
           </div>
         ))}
       </div>
+      <div className="text-white text-[16px] md:text-[40px] pt-4 flex justify-center">
+        <span>Technologies i have been working with recently.</span>
+      </div>
     </div>
   );
 };

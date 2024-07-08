@@ -50,7 +50,7 @@ const Project = () => {
   return (
     <div className=" px-8" id="Project">
       <div className="flex justify-center pt-4">
-        <h1 className="text-black font-bold">Projects</h1>
+        <h1 className="text-black font-bold text__gradient_2">Projects</h1>
       </div>
       <div className="flex justify-around flex-wrap gap-2 mt-8">
         {Project.map((project, index) => (
