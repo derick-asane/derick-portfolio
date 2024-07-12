@@ -10,7 +10,7 @@ import {
   postgresqlLogo,
   gitlabLogo,
   htlmLogo,
-} from "../../constants";
+} from "../../constants/index.ts";
 
 const Technologies = () => {
   const techLogos = [

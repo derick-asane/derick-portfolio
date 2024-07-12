@@ -1,4 +1,4 @@
-import { possibilityImage } from "../../constants";
+import { possibilityImage } from "../../constants/index.ts";
 
 const Aboutme = () => {
   const onDownLoad = () => {

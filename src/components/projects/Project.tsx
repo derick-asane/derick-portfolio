@@ -1,4 +1,4 @@
-import { projectImage } from "../../constants";
+import { projectImage } from "../../constants/index.ts";
 
 const Project = () => {
   const Project = [
