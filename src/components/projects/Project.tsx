@@ -4,46 +4,40 @@ const Project = () => {
   const Project = [
     {
       id: 1,
-      link: "",
+      link: "https://derick-restaurant.onrender.com/",
       image: projectImage,
-      label:
-        "If you’re just now becoming familiar with what a gradient is, we’ll paint the picture for you before we dive into the tougher stuff",
+      label: "Restaurant landing page app",
     },
     {
       id: 2,
-      link: "",
+      link: "https://bank-modern-app-9s1g.onrender.com/",
       image: projectImage,
-      label:
-        "If you’re just now becoming familiar with what a gradient is, we’ll paint the picture for you before we dive into the tougher stuff",
+      label: "Responsive Bank app landing page",
     },
     {
       id: 3,
-      link: "",
+      link: "https://gpt3-derick.onrender.com/",
       image: projectImage,
-      label:
-        "If you’re just now becoming familiar with what a gradient is, we’ll paint the picture for you before we dive into the tougher stuff",
+      label: "Responsive gpt3 app",
     },
     {
       id: 4,
       link: "",
       image: projectImage,
-      label:
-        "If you’re just now becoming familiar with what a gradient is, we’ll paint the picture for you before we dive into the tougher stuff",
+      label: "loading ...",
     },
     {
       id: 5,
       link: "",
       image: projectImage,
-      label:
-        "If you’re just now becoming familiar with what a gradient is, we’ll paint the picture for you before we dive into the tougher stuff",
+      label: "loading ...",
     },
     ,
     {
       id: 6,
       link: "",
       image: projectImage,
-      label:
-        "If you’re just now becoming familiar with what a gradient is, we’ll paint the picture for you before we dive into the tougher stuff",
+      label: "Loading ...",
     },
   ];
 
@@ -63,8 +57,10 @@ const Project = () => {
                   className="object-fill w-[100%]"
                 />
               </div>
-              <div className="bg-slate-900 flex justify-center">
-                <span className="text-white px-2">{project?.label}</span>
+              <div className="bg-slate-900 flex justify-center h-[60px]">
+                <span className="text-white px-2 py-2 text-[]">
+                  {project?.label}
+                </span>
               </div>
             </a>
           </div>

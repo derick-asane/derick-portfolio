@@ -36,9 +36,9 @@ const Aboutme = () => {
           <div className="flex justify-start items-center pt-4">
             <div
               onClick={onDownLoad}
-              className="text-[20px] border-4 px-4 py-2 rounded-lg text-white bg__gradient_1 cursor-pointer"
+              className="text-[20px] border-4 px-4 py-2 rounded-lg text-white bg__gradient_1 cursor-pointer hover:border-slate-900"
             >
-              download cv
+              Download CV
             </div>
           </div>
         </div>

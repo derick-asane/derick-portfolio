@@ -19,6 +19,7 @@ function Footer() {
           <span className="text-[20px]">Awae yaounde, cameroon</span>
         </div>
       </div>
+      <div></div>
       <div className="flex flex-col justify-center items-center">
         <p>&copy; {new Date().getFullYear()} AE Derick. All rights reserved.</p>
         <p>

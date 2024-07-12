@@ -61,13 +61,21 @@ const NavBar = () => {
         </div>
       )}
       <div className="w-[20%] flex justify-center items-center gap-6">
-        <a href="" className="hover:transform hover:scale-75 text-white ">
+        <a
+          target="_blank"
+          href="https://github.com/derick-asane"
+          className="hover:transform hover:scale-75 text-white "
+        >
           <FaGithub className="w-[25px] h-[25px] md:w-[30px] md:h-[30px]" />
         </a>
         <a href="" className="hover:transform hover:scale-75 text-white">
           <FaXTwitter className="w-[25px] h-[25px] md:w-[30px] md:h-[30px] " />
         </a>
-        <a href="" className="hover:transform hover:scale-75 text-white">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/ae-derick/"
+          className="hover:transform hover:scale-75 text-white"
+        >
           <FaLinkedinIn className="w-[25px] h-[25px] md:w-[30px] md:h-[30px] " />
         </a>
 
